@@ -1,0 +1,45 @@
+.container {
+    padding-top:100px;
+}
+.panel-heading h4 , .panel-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.panel-title{
+    font-size: 13px!important;
+}
+.fa {
+    font-size: 11px;
+    padding-right: 5px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.btn-add-task{
+    margin-bottom: 20px!important;
+}
+button{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+p.panel-title{
+    position: relative;
+}
+p span.fa-times-circle{
+    position: absolute;
+    right: 0;
+    top:25%;
+    font-size: 14px;
+    cursor: pointer;
+}
+p span.fa-times-circle:hover{
+    color:red;
+}
+.btn-edit , .btn-delete{
+    font-size: 11px !important;
+
+}
+.status {
+    cursor: pointer;
+}
